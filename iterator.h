@@ -1,5 +1,8 @@
 #include <iostream>
 
+#ifndef __ITERATOR
+#define __ITERATOR
+
 template <typename T> 
 class Iterator {
 public :
@@ -43,3 +46,4 @@ private :
 };
 
 
+#endif
