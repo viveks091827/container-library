@@ -39,7 +39,6 @@ public :
     reference operator * () {
         return *m_ref;
     }
-   
 
 private : 
     pointer m_ref;

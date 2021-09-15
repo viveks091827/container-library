@@ -196,6 +196,10 @@ public:
         return iterator(m_data + m_size);
     }
 
+    ~Vector() {
+        delete[] m_data;
+    }
+
 private:
     pointerType m_data;
     int m_size = 0;
